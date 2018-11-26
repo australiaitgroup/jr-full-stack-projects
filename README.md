@@ -103,6 +103,11 @@ JR Academy will provide following projects:
 
 **Level** Three
 
+#### UI Deisgn(Reference)
+
+![find](Ivy-School-Management-System/logos/logo.png)
+- Logo
+
 #### Site Structure
 
 - Student Profile:
@@ -194,6 +199,15 @@ For tradie
 ** The app could pick other names, reference: goTradie, iHandy, taskify, Tradify, getHandy, getTradie, getClean, Houzz
 
 ** Reference website and apps: Gumtree, Airtasker, hipage
+
+#### UI Design (Reference)
+
+![find](Handy-Booking-App/find-cleaner.png)
+
+- Find a cleaner
+
+![tradie](Handy-Booking-App/tradie-details.png)
+- Tradie Details Page
 
 ** Logos // TODO add logos 
 
@@ -313,6 +327,12 @@ Time Tracker
 
 Time-off Management
 
+#### UI Design (Reference)
+
+![add-leave](Insight-People-Management-System/add-leave.png)
+- Add Leave
+  
+
 #### Site Structure
 
 - Settings
@@ -413,6 +433,17 @@ Contacts Management
 Deals Managment
 Lead Management
 
+#### UI Deisgn(Reference)
+
+![find](Hulu-Customer-Relationship-Management-System/contact-details-1.png)
+- Contact Details
+
+![find](Hulu-Customer-Relationship-Management-System/lead-details.png)
+- Lead Details
+
+![find](Hulu-Customer-Relationship-Management-System/list-lead.png)
+- Lead List
+
 #### Site Structure
 
 - Contacts
@@ -472,6 +503,7 @@ Lead Management
 			- Lead Owner
 			- Phone
 			- Mobile
+			- Lead Resource
 			- Lead Status
 				- Attempted to Contact
 				- Contact in futre
