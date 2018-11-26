@@ -60,7 +60,18 @@ One account rules and manage all infomation without support of backup , error lo
 
 ## Projects
 
-### Mindset STEM Teaching Management System
+JR Academy will provide following projects:
+
+- Mindset STEM Teaching Management System
+- Ivy School Management System
+- Handy Booking App (For Customer & Tradie)
+- Handy Booking Management System
+- Insight People Management System
+- Hulu Customer Relationship Management System
+- `Teachable Sass Teaching Management System` - (Hard) provided in **JR Project Internship Program** in 2019
+- `IntelHR Management System` - provided in 2019
+- `Insight Recruit Management System` - provided in 2019
+- `TOP PTE Management System` - provided in 2019
 
 **Objective:** Deliver a teaching management system which includes:
 - assigns kids to the specific class
@@ -79,6 +90,8 @@ One account rules and manage all infomation without support of backup , error lo
 - teachers
 - class
 - notification
+
+**TODO** Capsen 
 
 ### Ivy School Management System
 
@@ -156,14 +169,6 @@ Student
 - Upload avatar
 - Payment
 - View Class
-
-
-### TOP PTE Management System
-
-**Objective:** Deliver a pte management system which includes:
-- 
-
-**Level** Three
 
 ### Handy Booking App (For Customer & Tradie)
 
@@ -292,25 +297,6 @@ A portal for staff/admin to manage the handy app
 
 #### Site Structure
 
-### Teachable Sass Teaching Management System (Hard)
-
-**Level** Four
-
-Roles:
-- super admin
-- school admin
-- staff admin
-- teachers
-- students
-
-- Multiple tenants support
-- Multiple schools support
-- Individual repository for schools
-- Payment & Transaction support (PCI compliance)
-- Super Admin
-
-**Level** Four
-
 ### Insight People Management System
 * Commercial Rate: 5
 * Hardness Rate: 5
@@ -407,7 +393,6 @@ SO THAT I'm able to change the company profile any time
 
 ##### Approve leave
 
-
 **description**
 
 AS a Admin
@@ -419,13 +404,6 @@ SO THAT I'm able to change the company profile any time
 **attributes (reference)**
 - User id
 - Who approved
-
-
-### IntelHR Management System
-
-
-### Insight Recruit Management System
-
 
 ### Hulu Customer Relationship Management System
 
@@ -478,10 +456,14 @@ Lead Management
 				- Mailing Country
 			- Description
 			- Notes
+				- `Add notes` - to track the history of contacts communication
 			- Relationship
 				- Deals
 				- Activities
 				- Events
+			- Intergrate Email (Optional)
+			- Intergrate Google Calendar (Optional)
+			- Assign Activity and meeting (Optional)
 	- Company
 - Leads
 	- List Lead
@@ -498,6 +480,81 @@ Lead Management
 				- Lost Lead
 			- Lead infomation
 - Deals
-	- Process
-- Task
-- Activities
+	- Lead Status
+		- New
+		- Attempted to Contact
+		- Contacted
+		- In Progress
+		- Open Deal
+		- Unqualified
+		- Bad Timing
+	- Deal Status
+		- Appointment scheduled (20%)
+		- Qualified to buy (40%)
+		- Presentation scheduled (60%)
+		- Decision maker bought-in (80%)
+		- Contract sent (90%)
+		- Closed won (100% Won)
+		- Closed lost (0% Lost)
+	- Custom Lead/Deal
+	- CRUD Deal
+- `Tasks (Optional)` - Similar to trello/jira
+	- Custom Progress
+		- 4 Basic progress: Todo , In progress, Review, Done
+		- Create a New progress
+		- Custom workflow
+	- CRUD Tasks
+		- Title
+		- Assignee
+		- Reporter
+		- Description
+		- Priority
+		- Created Date
+		- Due Date
+		- `Attachment(Optional)` - nice to use AWS s3
+		- CRUD Progress status
+- Activities (Optional)
+	- CRUD Meetings
+		- Title
+		- Commence Time
+		- End Time
+		- Location
+		- Interviewee
+		- Interviewer
+		- Objective
+
+#### Features
+
+- CURD to manage contact details
+
+### Teachable Sass Teaching Management System (Hard)
+
+**Level** Four
+
+Roles:
+- super admin
+- school admin
+- staff admin
+- teachers
+- students
+
+- Multiple tenants support
+- Multiple schools support
+- Individual repository for schools
+- Payment & Transaction support (PCI compliance)
+- Super Admin
+
+## TODO
+
+**Level** Four
+
+### IntelHR Management System
+
+### Insight Recruit Management System
+
+### TOP PTE Management System
+
+**Objective:** Deliver a pte management system which includes:
+- 
+
+**Level** Three
