@@ -436,6 +436,9 @@ Lead Management
 #### UI Deisgn(Reference)
 
 ![find](Hulu-Customer-Relationship-Management-System/contact-details-1.png)
+- Workflow
+
+![find](Hulu-Customer-Relationship-Management-System/contact-details-1.png)
 - Contact Details
 
 ![find](Hulu-Customer-Relationship-Management-System/lead-details.png)
