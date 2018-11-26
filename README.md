@@ -165,7 +165,7 @@ Student
 
 **Level** Three
 
-### Handy Booking App
+### Handy Booking App (For Customer & Tradie)
 
 **Level** Three
 **Objective:** Deliver a tradie\handy booking app which includes:
@@ -190,16 +190,73 @@ For tradie
 
 ** Reference website and apps: Gumtree, Airtasker, hipage
 
+** Logos // TODO add logos 
+
 #### Site Structure
+
+**Front-end:**
+
 - Home
 - Find a Handy
-	- Search results
+	- Search (results)
 	- Filter by categories
+		- Location
+		- Vocation
 	- Select one tradie
 		- View details
 		- Book & Request
 - Browse Handy
 - Login/ Register
+
+**Back-end API/DB**
+-  Query Tradie
+-  Book/Update Tradie
+-  Payment
+-  SQL/nosql
+
+**Roles**
+- Customer
+	- Profile
+		- Email
+		- Name
+		- Gender
+		- Language
+		- Address
+		- Mobile
+		- Avatar
+		- Introduction
+	- Features
+		- Update profile
+		- Search tradies by location, name, vacation, purpose
+		- View tradies
+		- Book/request/confirm tradies
+		- view your appointment
+		- view history (optional)
+		- make a payment (optional)
+		- chat/message tradie (optional)
+		- make a review (optional)
+- Tradie 
+	- Profile
+		- Email
+		- Name
+		- Title
+		- Gender
+		- Age
+		- Address
+		- Language
+		- Avatar
+		- Professional Years
+		- Skills - list of skills tag
+		- Vocation
+		- Bages - Award or verification  (optional)
+		- Reviews  (optional)
+		- Portfolio (optional)
+		- Introduction
+	- Features
+		- View request and confirm / change request
+		- Update profile
+		- Arrange appointment
+		- issue invoices (optional)
 
 ### Handy Booking Management System
 
@@ -207,11 +264,31 @@ For tradie
 
 **Objective:** Deliver a tradie\handy booking system which includes:
 
-- manage orders from users
+- manage bookings from users
 - assign related tradie to the user
 - CRUD tradies and services
 - view history of tradies
 - view transactions
+
+**Front-end:**
+
+A portal for staff/admin to manage the handy app
+
+**Back-end API/DB**
+-  Query Tradie
+-  Book/Update Tradie
+-  Payment
+-  SQL/nosql
+
+**Roles**
+- Staff
+	- CRUD Customer and Tradie
+	- CRUD transactions
+	- CRUD bookings
+- Super Admin
+	- CRUD Customer and Tradie
+	- CRUD transactions
+	- CRUD bookings
 
 #### Site Structure
 
@@ -239,11 +316,17 @@ Roles:
 * Hardness Rate: 5
 
 #### System Includes
+
 Time & Attendance Mangement
+
 Performance Management
+
 Shift Shceduling
+
 Time Tracker
+
 Time-off Management
+
 #### Site Structure
 
 - Settings
@@ -281,7 +364,18 @@ Time-off Management
 	- My Requests
 
 #### Features
+
 ##### Update company profiles
+
+**description**
+
+AS a Admin
+
+I WANT to modify the profile of the company
+
+SO THAT I'm able to change the company profile any time
+
+**attributes (reference)**
 - Email ID
 - Current Locale
 - Name
@@ -289,6 +383,16 @@ Time-off Management
 - Address
 
 ##### Apply for leave
+
+**description**
+
+AS a Staff
+
+I WANT to apply for a leave
+
+SO THAT I'm able to change the company profile any time
+
+**attributes (reference)**
 
 - Leave type
 - Duration
@@ -300,6 +404,21 @@ Time-off Management
 - Sent to (Supvervisor)
 - Message
 - Submit
+
+##### Approve leave
+
+
+**description**
+
+AS a Admin
+
+I WANT to approve for a leave
+
+SO THAT I'm able to change the company profile any time
+
+**attributes (reference)**
+- User id
+- Who approved
 
 
 ### IntelHR Management System
