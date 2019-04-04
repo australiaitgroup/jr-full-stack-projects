@@ -67,6 +67,8 @@ JR Academy will provide following projects:
 - Handy Booking App (For Customer & Tradie)
 - Handy Booking Management System
 - Insight People Management System
+- Insight Talent Assessment App
+- Insight Talent Assessment Management Portal
 - Hulu Customer Relationship Management System
 - `Teachable Sass Teaching Management System` - (Hard) provided in **JR Project Internship Program** in 2019
 - `IntelHR Management System` - provided in 2019
@@ -425,6 +427,41 @@ SO THAT I'm able to change the company profile any time
 - User id
 - Who approved
 
+### Insight Talent Assessment App
+
+**Level** Three
+**Objective:** Deliver a career assessment app for job candidates
+
+#### System Includes
+- assessment app
+- multiple input/select type supports
+- based on token from email and create individual profile
+- connect assessment app to the database
+- set timer for questions and whole assessment
+
+#### UI Deisgn(Reference)
+
+#### Site Structure
+
+### Insight Talent Assessment Management Portal
+
+**Level** Four
+**Objective:** Deliver a management portal for talent assessment app
+
+
+#### System Includes
+- multiple roles support and mutile tanents
+- custonm survey and create questions by admin
+- create survey sets for different positions
+- invite candidate to do the career assessment though emails with tokens
+- based on positions to send specific assessements
+- set start date and expiry date for assessments
+- collect candidate's answers through unique token
+- report and analysis candidates
+- manage basic candidates information(name, email, gendar, city, positions, cv)
+
+
+
 ### Hulu Customer Relationship Management System
 
 #### System Includes
@@ -593,3 +630,9 @@ Roles:
 - 
 
 **Level** Three
+
+## Australia IT Professional Community
+
+[Sydney JR Academy | Code bootcamp](https://jiangren.com.au/city/sydney).
+[Melbourne JR Academy | Code bootcamp](https://jiangren.com.au/city/melbourne).
+[Brisbane JR Academy | Code bootcamp](https://jiangren.com.au/city/brisbane).
