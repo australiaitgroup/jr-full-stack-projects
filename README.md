@@ -165,24 +165,36 @@ Student
 **Objective:** Deliver a tradie\handy booking app which includes:
 
 For user
-- book one specific service provided by a tradie
-- make an online payment when booking a tradie
-- user could login the system then mange and view history of bookings
+- browse all tradies
+- view tradie detials (name, gendar, avatar, suburb, servcies, price, mobile, email )
+- book services provided by a tradie
+- user could login the app and mange and view history of bookings/orders
 - user could change their profiles
+- user could change password or reset password
 - list all services and tradies by category
 - search functionality
+- booking a tradie by cash
 
 For tradie
 - check bookings
 - arrange bookings 
+- change status of bookings
 - post their service by category
 - update profile
 
+**Advanced Features**
+- send notification to users or tradies(by email, sms message)
+- use could made online payment when booking a service (bank transfer, stripe or paypal)
+- add reviews for tradie
+- based on user's preference to recommend tradies
+
 ** The app could specify one or multiplie industries, reference: cleaning, repairs, builders,handyman, plumbers, pest control, carpenters, electricians, removalists
 
-** The app could pick other names, reference: goTradie, iHandy, taskify, Tradify, getHandy, getTradie, getClean, Houzz
+**Reference App Name**
 
-** Reference website and apps: Gumtree, Airtasker, hipage
+** goTradie, iHandy, taskify, Tradify, getHandy, getTradie, getClean, Houzz
+
+** Reference website and apps: Gumtree, Airtasker, hipage, Handyapp
 
 #### UI Design (Reference)
 
@@ -265,17 +277,21 @@ For tradie
 
 **Level** Three
 
-**Objective:** Deliver a tradie\handy booking system which includes:
+**Objective:** Deliver a tradie booking management system for super administration which includes:
 
-- manage bookings from users
+- CRUD bookings/orders for users/tradies
 - assign related tradie to the user
-- CRUD tradies and services
-- view history of tradies
+- CRUD tradies profile and services' details
+- view order history of tradies
+- send notifications when creating orders
 - view transactions
+- issue payslips for tradies
+- export payslips as pdf
+- track orders
 
 **Front-end:**
 
-A portal for staff/admin to manage the handy app
+A portal for staff/admin to manage the handyapp
 
 **Back-end API/DB**
 -  Query Tradie
@@ -293,11 +309,46 @@ A portal for staff/admin to manage the handy app
 	- CRUD transactions
 	- CRUD bookings
 
+**Models**
+- Order
+	- Order ID
+	- created time
+	- updated time
+	- unit price
+	- length
+	- total price
+	- service
+	- client
+	- service provider
+	- payment status
+		- recieved
+		- unpaid
+		- pending
+		- etc
+	- service status
+		- pending
+		- processing
+		- unfinished
+		- done
+		- etc
+- Service
+  - name
+  - description
+  - price
+- Transaction
+
 #### Site Structure
 
 ### Insight People Management System
 * Commercial Rate: 5
 * Hardness Rate: 5
+
+**Features:** 
+
+- Deliver a HR management systems 
+- Consolidate all your core HR information and people data in one place
+- HR processes in place for onboarding, probation, and ongoing engagement
+- Staff could apply for leave based on Australia employee policy
 
 #### System Includes
 
@@ -307,12 +358,98 @@ A portal for staff/admin to manage the handy app
 - Shift Shceduling
 - Time Tracker
 - Time-off Management
+- Payroll Service(Advanced)
 
 #### UI Design (Reference)
 
 ![add-leave](Insight-People-Management-System/add-leave.png)
 - Add Leave
-  
+
+#### How to calculate sick leave
+
+**Average hours worked per week** = Total hours worked / Number of completed weeks of service
+
+**Number of hours of sick leave accrued per week of service** = Average hours worked per week / 38* x 1.461
+
+**Total hours of sick leave accrued** = Number of hours of sick leave accrued per week of service x Number of completed weeks of service
+
+**Sick leave hours available to be used** = Total sick leave hours owed - Sick leave hours already taken
+
+#### How to calculate annual leave
+
+First let’s go through some numbers we will need.
+
+1. The NES considers a full-time work week to be 38 hours.
+2. A normal working day is therefore 7.6 hours (38 hours / 5 days).
+3. 4 weeks annual leave equals 20 days, (5 days × 4 weeks).
+4. Every calendar day you accumulate 0.416438356 hours of leave (20 days × 7.6 hours / 365 days).
+
+Two formulas give us your annual leave entitlement in hours and days.
+
+**Hours accumulated** = Calendar days employed × Accumulation rate
+
+**Days accumulated** = Calendar days employed × Accumulation rate / 7.6
+
+9 months is around 274 calendar days
+
+274 days × 0.416438356 = 114 hours accumulated
+
+274 days × 0.416438356 / 7.6 = 15 days accumulated
+
+If you work part-time, you need to adjust the accumulation rate like this.
+
+0.416438356 × Average days worked per week / 5
+
+For example, if you work 3 days per week your accumulation rate is calculated as follows.
+
+0.416438356 × 3 / 5 = 0.2498630136
+
+#### Models
+- User
+  - First Name
+  - Last Name
+  - Gendar
+  - Nationality
+  - Language
+  - Address
+  - Surburb
+  - City
+  - Postcode
+  - Email
+  - Mobile
+  - Visa
+  - dob
+  - job type
+  - start date
+  - Department
+  - Tax File Number
+  - Pay template
+    - Type
+      - Ordinary hourse
+      - Annually
+    - hours per week
+    - Annual Salary
+  - Payroll Calendar
+    - Monthly
+    - Fourtnightly
+  - Salary
+  - Earninigs
+- Leave
+  - type
+    - Annual Leave
+    - Annual Leave Unpaid
+    - Personal Leave
+    - Personal Leave Unpaid
+    - Long Service Leave
+  - Dates
+    - type
+      - Full Day
+      - Multiple Days
+      - Part Day
+- Department
+- Perfermance
+- Payroll
+- Training
 
 #### Site Structure
 
