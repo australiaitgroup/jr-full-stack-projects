@@ -7,6 +7,8 @@ Only one Simple Super Admin account
 
 One account rules and manage all infomation without support of backup , error logging and limited permissions 
 
+University projects and assignments are in this level
+
 **requirment**
 - manage all tenants, products, services .etc with Create, Read, Update, Delete functions
 - simple relationship between tenants, products, services .etc
@@ -49,7 +51,7 @@ One account rules and manage all infomation without support of backup , error lo
 - Microservice / serverless / other structures considered
 - Docker CI CD
 
-**Level Four : Sass**
+**Level Four : Sass/Cloud/Scalable**
 
 **requirment**
 - Cloud based 
@@ -75,33 +77,13 @@ JR Academy will provide following projects:
 - `Insight Recruit Management System` - provided in 2019
 - `TOP PTE Management System` - provided in 2019
 
-**Objective:** Deliver a teaching management system which includes:
-- assigns kids to the specific class
-- supports one classroom to host one class at a specific period
-- records all kids' behavior to the system
-- assigns one teacher to be responsible for one classroom
-
-**Level** Three
-
-#### Site Structure
-- kid profile
-	- emergency contact profile
-- history
-	- records all kids' behavoir for every class
-- classroom
-- teachers
-- class
-- notification
-
-**TODO** Capsen 
-
 ### Ivy School Management System
 
 **Objective:** Deliver a teaching management system which includes:
-- assigns students to the specific class
+- assigns students to specific classes
 - supports one classroom to host one class at a specific period
 - assigns one teacher to be responsible for one classroom
-- submit and reviews assignments
+- submits and reviews assignments
 
 **Level** Three
 
@@ -279,7 +261,7 @@ For tradie
 		- Arrange appointment
 		- issue invoices (optional)
 
-### Handy Booking Management System
+### Handy Booking Management System (for Administrators)
 
 **Level** Three
 
@@ -319,15 +301,12 @@ A portal for staff/admin to manage the handy app
 
 #### System Includes
 
-Time & Attendance Mangement
-
-Performance Management
-
-Shift Shceduling
-
-Time Tracker
-
-Time-off Management
+- Time & Attendance Mangement
+- Leave Mangement includes Public holiday management
+- Performance Management
+- Shift Shceduling
+- Time Tracker
+- Time-off Management
 
 #### UI Design (Reference)
 
@@ -632,6 +611,28 @@ Roles:
 **Level** Three
 
 ## Australia IT Professional Community
+
+## Mindset K12 Learning Mangement System
+
+**Objective:** Deliver a teaching management system which includes:
+- assigns kids to the specific class
+- supports one classroom to host one class at a specific period
+- records all kids' behavior to the system
+- assigns one teacher to be responsible for one classroom
+
+**Level** Three
+
+#### Site Structure
+- kid profile
+	- emergency contact profile
+- history
+	- records all kids' behavoir for every class
+- classroom
+- teachers
+- class
+- notification
+
+**TODO** Capsen 
 
 [Sydney JR Academy | Code bootcamp](https://jiangren.com.au/city/sydney).
 [Melbourne JR Academy | Code bootcamp](https://jiangren.com.au/city/melbourne).
