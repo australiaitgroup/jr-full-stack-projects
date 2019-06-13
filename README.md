@@ -89,8 +89,41 @@ JR Academy will provide following projects:
 
 #### UI Deisgn(Reference)
 
+Logo
+
 ![find](Ivy-School-Management-System/logos/logo.png)
-- Logo
+
+Add Student
+
+![find](Teachable-System/add-student.png)
+
+Course Details
+
+![find](Teachable-System/course-details.png)
+
+Course List
+
+![find](Teachable-System/course-list.png)
+
+List Student
+
+![find](Teachable-System/list-student.png)
+
+Student Details
+
+![find](Teachable-System/student-details-2.png)
+
+Student Details
+
+![find](Teachable-System/student-details.png)
+
+Student Enroll Course
+
+![find](Teachable-System/student-enroll-course.png)
+
+List Owners
+
+![find](Teachable-System/list-owners.png)
 
 #### Site Structure
 
@@ -362,8 +395,38 @@ A portal for staff/admin to manage the handyapp
 
 #### UI Design (Reference)
 
+Add Leave
+
+![add-leave](Insight-People-Management-System/all-employee.png)
+
+Leave Request
+
+![add-leave](Insight-People-Management-System/leave-request.png)
+
+Attendance List
+
+![add-leave](Insight-People-Management-System/attendance-list.png)
+
+Department
+
+![add-leave](Insight-People-Management-System/department.png)
+
+Payroll
+
+![add-leave](Insight-People-Management-System/payroll.png)
+
+Employee Salary
+
+![add-leave](Insight-People-Management-System/salary.png)
+
+Add Leave
+
 ![add-leave](Insight-People-Management-System/add-leave.png)
-- Add Leave
+
+Add Approvals
+
+![add-leave](Insight-People-Management-System/add-approvals.png)
+
 
 #### How to calculate sick leave
 
