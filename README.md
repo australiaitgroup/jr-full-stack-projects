@@ -1,3 +1,5 @@
+Check out guide to lanuch a project
+[Guide to Project](https://github.com/australiaitgroup/Guide-to-JS-Project)
 
 How do we identify the level of the project ? 
 
@@ -65,17 +67,17 @@ University projects and assignments are in this level
 JR Academy will provide following projects:
 
 - Mindset STEM Teaching Management System
-- Ivy School Management System
-- Handy Booking App (For Customer & Tradie)
-- Handy Booking Management System
-- Insight People Management System
-- Insight Talent Assessment App
-- Insight Talent Assessment Management Portal
-- Hulu Customer Relationship Management System
-- `Teachable Sass Teaching Management System` - (Hard) provided in **JR Project Internship Program** in 2019
-- `IntelHR Management System` - provided in 2019
-- `Insight Recruit Management System` - provided in 2019
-- `TOP PTE Management System` - provided in 2019
+- [Ivy School Management System](#ivy-school-management-system)
+- [Handy Booking App (For Customer & Tradie)](#handy-booking-app)
+- [Handy Booking Management System](#handy-booking-management-system)
+- [Insight People Management System](#insight-people-management-system)
+- [Insight Talent Assessment App](#insight-talent-assessment-app)
+- [Insight Talent Assessment Management Portal](#insight-talent-assessment-management-portal)
+- [Hulu Customer Relationship Management System](#hulu-customer-relationship-management-system)
+- [Teachable Sass Teaching Management System](#teachable-sass-teaching-management-system-hard) - (Hard) provided in **JR Project Internship Program** in 2019
+- [IntelHR Management System](#intelhr-management-system) - provided in 2019
+- [Insight Recruit Management System](#insight-recruit-management-system) - provided in 2019
+- [TOP PTE Management System](#top-pte-management-system) - provided in 2019
 
 ### Ivy School Management System
 
@@ -192,7 +194,9 @@ Student
 - Payment
 - View Class
 
-### Handy Booking App (For Customer & Tradie)
+### Handy Booking App
+
+**(For Customer & Tradie)**
 
 **Level** Three
 **Objective:** Deliver a tradie\handy booking app which includes:
@@ -306,7 +310,9 @@ For tradie
 		- Arrange appointment
 		- issue invoices (optional)
 
-### Handy Booking Management System (for Administrators)
+### Handy Booking Management System
+
+ **(for Administrators)**
 
 **Level** Three
 
@@ -834,6 +840,16 @@ Roles:
 
 **TODO** Capsen 
 
+## The Jiangren Website.
+The best code bootcamp in Australia
+Visit [The best code bootcamp in Australia: JR Academy](https://jiangren.com.au).
+
+## Australia IT Professional Community
+
 [Sydney JR Academy | Code bootcamp](https://jiangren.com.au/city/sydney).
+
 [Melbourne JR Academy | Code bootcamp](https://jiangren.com.au/city/melbourne).
+
 [Brisbane JR Academy | Code bootcamp](https://jiangren.com.au/city/brisbane).
+
+[JR Talent](https://jrtalent.com.au)
