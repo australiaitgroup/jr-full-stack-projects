@@ -1,6 +1,23 @@
 Check out guide to lanuch a project
 [Guide to Project](https://github.com/australiaitgroup/Guide-to-JS-Project)
 
+## Projects
+
+JR Academy will provide following projects:
+
+- Mindset STEM Teaching Management System
+- [Ivy School Management System](#ivy-school-management-system)
+- [Handy Booking App (For Customer & Tradie)](#handy-booking-app)
+- [Handy Booking Management System](#handy-booking-management-system)
+- [Insight People Management System](#insight-people-management-system)
+- [Insight Talent Assessment App](#insight-talent-assessment-app)
+- [Insight Talent Assessment Management Portal](#insight-talent-assessment-management-portal)
+- [Hulu Customer Relationship Management System](#hulu-customer-relationship-management-system)
+- [Teachable Sass Teaching Management System](#teachable-sass-teaching-management-system-hard) - (Hard) provided in **JR Project Internship Program** in 2019
+- [IntelHR Management System](#intelhr-management-system) - provided in 2019
+- [Insight Recruit Management System](#insight-recruit-management-system) - provided in 2019
+- [TOP PTE Management System](#top-pte-management-system) - provided in 2019
+
 How do we identify the level of the project ? 
 
 **Level one: Simple Practice**
@@ -61,23 +78,6 @@ University projects and assignments are in this level
 - membership
 - third party authentication
 - Complex authentication and permissions
-
-## Projects
-
-JR Academy will provide following projects:
-
-- Mindset STEM Teaching Management System
-- [Ivy School Management System](#ivy-school-management-system)
-- [Handy Booking App (For Customer & Tradie)](#handy-booking-app)
-- [Handy Booking Management System](#handy-booking-management-system)
-- [Insight People Management System](#insight-people-management-system)
-- [Insight Talent Assessment App](#insight-talent-assessment-app)
-- [Insight Talent Assessment Management Portal](#insight-talent-assessment-management-portal)
-- [Hulu Customer Relationship Management System](#hulu-customer-relationship-management-system)
-- [Teachable Sass Teaching Management System](#teachable-sass-teaching-management-system-hard) - (Hard) provided in **JR Project Internship Program** in 2019
-- [IntelHR Management System](#intelhr-management-system) - provided in 2019
-- [Insight Recruit Management System](#insight-recruit-management-system) - provided in 2019
-- [TOP PTE Management System](#top-pte-management-system) - provided in 2019
 
 ### Ivy School Management System
 
