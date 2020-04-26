@@ -10,15 +10,22 @@ JR Academy will provide following projects:
 - [Handy Booking App (For Customer & Tradie)](#handy-booking-app)
 - [Handy Booking Management System](#handy-booking-management-system)
 - [Insight People Management System](#insight-people-management-system)
-- [Insight Talent Assessment App](#insight-talent-assessment-app)
+- [JR Academy Talent Assessment App](#jr-academy-talent-assessment-app)
 - [Insight Talent Assessment Management Portal](#insight-talent-assessment-management-portal)
 - [Hulu Customer Relationship Management System](#hulu-customer-relationship-management-system)
-- [Teachable Sass Teaching Management System](#teachable-sass-teaching-management-system-hard) - (Hard) provided in **JR Project Internship Program** in 2019
-- [IntelHR Management System](#intelhr-management-system) - provided in 2019
-- [Insight Recruit Management System](#insight-recruit-management-system) - provided in 2019
-- [TOP PTE Management System](#top-pte-management-system) - provided in 2019
 
-How do we identify the level of the project ? 
+### Web全栈班Project3
+
+目前Web全栈班除了上面的项目外，还可以参考:
+
+1. 电子商务Web Application，像闲鱼二手交易App，拼多多社交团购App，一般类电商Web application
+2. Airtasker
+3. Doctor booking
+4. Tinder
+5. COVID-19
+6. Property Me
+
+#### How do we identify the level of the project ? 
 
 **Level one: Simple Practice**
 
@@ -79,7 +86,7 @@ University projects and assignments are in this level
 - third party authentication
 - Complex authentication and permissions
 
-### Margherita - Online Ordering Pizza Restaurant
+## Margherita - Online Ordering Pizza Restaurant
 
 **Objective:** Deliver a pizza ordering system:
 
@@ -108,7 +115,7 @@ All UI deisgn in Margherita-Online-Ordering-Pizza-Restaurant folder
 ![find](Margherita-Online-Ordering-Pizza-Restaurant/02_Margherita-Homepage.jpg)
 
 
-### Ivy School Management System
+## Ivy School Management System
 
 **Objective:** Deliver a teaching management system which includes:
 - assigns students to specific classes
@@ -219,7 +226,7 @@ Student
 - Payment
 - View Class
 
-### Handy Booking App or Airtasker Redesgin
+## Handy Booking App or Airtasker Redesgin
 
 **(For Customer & Tradie)**
 
@@ -335,7 +342,7 @@ For tradie
 		- Arrange appointment
 		- issue invoices (optional)
 
-### Handy Booking Management System
+## Handy Booking Management System
 
  **(for Administrators)**
 
@@ -403,7 +410,7 @@ A portal for staff/admin to manage the handyapp
 
 #### Site Structure
 
-### Insight People Management System
+## Insight People Management System
 * Commercial Rate: 5
 * Hardness Rate: 5
 
@@ -637,7 +644,7 @@ SO THAT I'm able to change the company profile any time
 - User id
 - Who approved
 
-### Insight Talent Assessment App
+## JR Academy Talent Assessment App
 
 **Level** Three
 **Objective:** Deliver a career assessment app for job candidates
@@ -653,7 +660,7 @@ SO THAT I'm able to change the company profile any time
 
 #### Site Structure
 
-### Insight Talent Assessment Management Portal
+## Insight Talent Assessment Management Portal
 
 **Level** Four
 **Objective:** Deliver a management portal for talent assessment app
@@ -672,7 +679,7 @@ SO THAT I'm able to change the company profile any time
 
 
 
-### Hulu Customer Relationship Management System
+## Hulu Customer Relationship Management System
 
 #### System Includes
 Task Management
@@ -809,7 +816,7 @@ Lead Management
 
 - CURD to manage contact details
 
-### Teachable Sass Teaching Management System (Hard)
+## Teachable Sass Teaching Management System (Hard)
 
 **Level** Four
 
