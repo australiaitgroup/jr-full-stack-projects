@@ -5,7 +5,7 @@ Check out guide to lanuch a project
 
 JR Academy will provide following projects:
 
-- Mindset STEM Teaching Management System
+- [Margherita - Online Ordering Pizza Restaurant](#margherita)
 - [Ivy School Management System](#ivy-school-management-system)
 - [Handy Booking App (For Customer & Tradie)](#handy-booking-app)
 - [Handy Booking Management System](#handy-booking-management-system)
@@ -79,6 +79,15 @@ University projects and assignments are in this level
 - third party authentication
 - Complex authentication and permissions
 
+### Margherita - Online Ordering Pizza Restaurant
+
+**Objective:** Deliver a pizza ordering system:
+
+All UI deisgn in Margherita-Online-Ordering-Pizza-Restaurant folder
+
+![find](Margherita-Online-Ordering-Pizza-Restaurant/02_Margherita-Homepage.jpg)
+
+
 ### Ivy School Management System
 
 **Objective:** Deliver a teaching management system which includes:
@@ -90,10 +99,6 @@ University projects and assignments are in this level
 **Level** Three
 
 #### UI Deisgn(Reference)
-
-Logo
-
-![find](Ivy-School-Management-System/logos/logo.png)
 
 Add Student
 
