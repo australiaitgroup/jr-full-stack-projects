@@ -85,6 +85,26 @@ University projects and assignments are in this level
 
 All UI deisgn in Margherita-Online-Ordering-Pizza-Restaurant folder
 
+#### Download Sources
+
+**Logo Font**
+
+[Royal Chicken](https://www.dafont.com/royal-chicken.font)
+
+**Fonts**
+
+[Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface)
+
+[Fredericka the Great](https://fonts.google.com/specimen/Fredericka+the+Great)
+
+[Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+
+**Icons**
+
+[Stroke 7 Icon Font Set](http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set)
+
+**UI Design**
+
 ![find](Margherita-Online-Ordering-Pizza-Restaurant/02_Margherita-Homepage.jpg)
 
 
@@ -199,7 +219,7 @@ Student
 - Payment
 - View Class
 
-### Handy Booking App
+### Handy Booking App or Airtasker Redesgin
 
 **(For Customer & Tradie)**
 
@@ -404,41 +424,6 @@ A portal for staff/admin to manage the handyapp
 - Time-off Management
 - Payroll Service(Advanced)
 
-#### UI Design (Reference)
-
-Add Leave
-
-![add-leave](Insight-People-Management-System/all-employee.png)
-
-Leave Request
-
-![add-leave](Insight-People-Management-System/leave-request.png)
-
-Attendance List
-
-![add-leave](Insight-People-Management-System/attendance-list.png)
-
-Department
-
-![add-leave](Insight-People-Management-System/department.png)
-
-Payroll
-
-![add-leave](Insight-People-Management-System/payroll.png)
-
-Employee Salary
-
-![add-leave](Insight-People-Management-System/salary.png)
-
-Add Leave
-
-![add-leave](Insight-People-Management-System/add-leave.png)
-
-Add Approvals
-
-![add-leave](Insight-People-Management-System/add-approvals.png)
-
-
 #### How to calculate sick leave
 
 **Average hours worked per week** = Total hours worked / Number of completed weeks of service
@@ -477,6 +462,41 @@ If you work part-time, you need to adjust the accumulation rate like this.
 For example, if you work 3 days per week your accumulation rate is calculated as follows.
 
 0.416438356 × 3 / 5 = 0.2498630136
+
+#### UI Design (Reference)
+
+Add Leave
+
+![add-leave](Insight-People-Management-System/all-employee.png)
+
+Leave Request
+
+![add-leave](Insight-People-Management-System/leave-request.png)
+
+Attendance List
+
+![add-leave](Insight-People-Management-System/attendance-list.png)
+
+Department
+
+![add-leave](Insight-People-Management-System/department.png)
+
+Payroll
+
+![add-leave](Insight-People-Management-System/payroll.png)
+
+Employee Salary
+
+![add-leave](Insight-People-Management-System/salary.png)
+
+Add Leave
+
+![add-leave](Insight-People-Management-System/add-leave.png)
+
+Add Approvals
+
+![add-leave](Insight-People-Management-System/add-approvals.png)
+
 
 #### Models
 - User
