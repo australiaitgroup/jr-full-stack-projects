@@ -41,8 +41,17 @@ Please ensure add some unit test & e2e test if possible.
 
 **参考设计** 参考Weather App设计, 在本project的Weather-App-UI-Design文件夹内 
 
+Light模式
+
 ![Minimis Light](Weather-App-UI-Design/Minimis-Weather-light.png)
+
+Dark模式
+
 ![Minimis Dark](Weather-App-UI-Design/Minimis-Weather-dark.png)
+
+Header设计
+
+![Minimis Header](Weather-App-UI-Design/france.png)
 
 原始设计Adobe XD文档 [Minimis XD](Weather-App-UI-Design/Minimis-Design.xd)
 
