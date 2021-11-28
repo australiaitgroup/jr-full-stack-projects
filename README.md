@@ -1,7 +1,55 @@
 Check out guide to lanuch a project
 [Guide to Project](https://github.com/australiaitgroup/Guide-to-JS-Project)
 
-## Projects
+## Web全栈班Project 1
+
+Project One目的是要为Stakeholder(甲方) 做一款基础的个人/商用网站 静态网站，甲方可以是你的朋友，律师，PT，会计，设计师，小咖啡店，公司官网等。
+主要目的锻炼基础的HTML，CSS，JavaScript，以及Sass，jQuery，Bootstrap等。可以添加付款，Schedule预约等功能扩展第一个项目的商业化。锻炼跟客户的交流能力。以及如何简单**部署**一个网站
+
+做完Project one后可以放到简历里作为一项商业项目经验。
+
+**注意** 不是为自己做网站，是要为**甲方**做网站
+
+可以参考如何Host你的静态网站 https://pages.github.com/
+
+### 注意事项
+
+应对error message的几个步骤：
+
+1. 详细阅读一下error message，看报错的内容是什么，是否和自己操作的步骤有关，你是否能从报错的内容中找到出错位置，以及出错原因
+2. 如果自己无法理解错误信息，尝试提炼出error message中的关键语句，在google上搜索。这一步很重要。如果全盘复制error message，有可能会因为字符数太多而无法详细匹配到你要找的答案。所以如何精炼错误信息的同时又精准的找到网上的答案，也是锻炼搜索能力的重要一步
+3. 尝试从google的搜索结果当中，逐一比较，是否和你的错误信息相关。如果是，可以尝试google提出的解决方案。通常情况下你找到的第一个不一定是能解决你问题的那个一个。有可能需要尝试五六个/六七个不同的方案，才最终能找到你想要的内容
+4. 如果google上的内容也无法帮你解决问题，可以截图错误信息，注意截图中要包含你所跑的命令和详细的错误信息，发到群里，大家帮你参考。
+
+---
+
+## Web全栈班Project 2
+
+### 项目描述
+
+项目名称：Weather Forest Application
+
+The coding exercise we’d like to work on is building an app where you can input a city name to show the current weather in that city area and the forecast for the upcoming 3 days. You may use www.weatherapi.com, which provides a free API to query weather data. It does require signing up to generate an API key but there is an - https://www.weatherapi.com/api-explorer.aspx - that makes it easy to check the response.
+
+You are free to use any frontend libraries to build this web application. Once you have built the application please send the code back to us in a .zip file (without any modules that can be fetched from the internet) so that we can clone the repository and check its functionality locally on our machine. Please provide some instructions on how to run it locally in the readme. Feel free to comment on the readme any design decisions or assumptions that were made while you built this application.
+
+We will spend some time discussing your solution during the programming interview. Please treat this task like a feature you would build as an engineer using developer best practices and deploy in a production ready state.
+
+Please ensure add some unit test & e2e test if possible.
+
+**注意事项** 项目2的上述描述来自MongoDB公司的Code Challenge面试真题（Take home project）描述，根据上述描述，把代码发布到github上，以及需要host web app
+
+**参考设计** 参考Weather App设计, 在本project的Weather-App-UI-Design文件夹内 - [Margherita - Online Ordering Pizza Restaurant](/Weather-App-UI-Design/Weather-App-UI-easy.png)
+
+**Project 2目的** Developer提前了解公司的code test/code challenge 的描述，练习前端面试题。由于所有Web Application的前端面试题都大同小异，前端SPA，call第三方或者面试公司的API，然后部署到S3或者github pages里。练习好这个project，可以应对大多数code test。
+
+**技术栈要求** 不仅仅使用Reactjs，更要使用Redux或者其他State management工具，写Unit Test，以及其他可以学到的技术都要用到。注意File Structure结构，以及Component和Page的区别，name convention，funciton，class，hook等使用习惯。API要放在单独的层理不能在view层直接call api等。
+
+---
+
+## Web全栈班Project 3
+
+### Projects
 
 JR Academy will provide following projects:
 
@@ -13,8 +61,6 @@ JR Academy will provide following projects:
 - [JR Academy Talent Assessment App](#jr-academy-talent-assessment-app)
 - [Insight Talent Assessment Management Portal](#insight-talent-assessment-management-portal)
 - [Hulu Customer Relationship Management System](#hulu-customer-relationship-management-system)
-
-### Web全栈班Project3
 
 目前Web全栈班除了上面的项目外，还可以参考:
 
@@ -681,6 +727,8 @@ SO THAT I'm able to change the company profile any time
 
 ## Hulu Customer Relationship Management System
 
+参考项目 [Hubspot](https://www.hubspot.com/)
+
 #### System Includes
 Task Management
 Contacts Management
@@ -870,7 +918,6 @@ Roles:
 - class
 - notification
 
-**TODO** Capsen 
 
 ## The Jiangren Website.
 The best code bootcamp in Australia
