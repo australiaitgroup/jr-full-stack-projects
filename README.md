@@ -1,4 +1,4 @@
-Check out guide to lanuch a project
+如何启动Project Check out guide to lanuch a project
 [Guide to Project](https://github.com/australiaitgroup/Guide-to-JS-Project)
 
 ## Web全栈班Project 1
@@ -39,7 +39,12 @@ Please ensure add some unit test & e2e test if possible.
 
 **注意事项** 项目2的上述描述来自MongoDB公司的Code Challenge面试真题（Take home project）描述，根据上述描述，把代码发布到github上，以及需要host web app
 
-**参考设计** 参考Weather App设计, 在本project的Weather-App-UI-Design文件夹内 - [Margherita - Online Ordering Pizza Restaurant](/Weather-App-UI-Design/Weather-App-UI-easy.png)
+**参考设计** 参考Weather App设计, 在本project的Weather-App-UI-Design文件夹内 
+
+![Minimis Light](Weather-App-UI-Design/Minimis-Weather-light.png)
+![Minimis Dark](Weather-App-UI-Design/Minimis-Weather-dark.png)
+
+原始设计Adobe XD文档 [Minimis XD](Weather-App-UI-Design/Minimis-Design.xd)
 
 **Project 2目的** Developer提前了解公司的code test/code challenge 的描述，练习前端面试题。由于所有Web Application的前端面试题都大同小异，前端SPA，call第三方或者面试公司的API，然后部署到S3或者github pages里。练习好这个project，可以应对大多数code test。
 
